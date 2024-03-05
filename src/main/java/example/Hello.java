@@ -19,7 +19,13 @@ public class Hello {
 		keyboard.up(3000);
 		keyboard.display();
 		
-		//サンプルプログラム
+		//課題
+		Product apple = new Product("りんご",150);
+		
+		apple.display();
+		apple.up(2900);
+		apple.down(1000);
+		apple.display();
 		
 		
 	}
