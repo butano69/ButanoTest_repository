@@ -20,6 +20,8 @@ public class Hello {
 		keyboard.display();
 		
 		//サンプルプログラム
+		System.out.println("demo");
+		
 		
 		
 	}
