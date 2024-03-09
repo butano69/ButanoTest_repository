@@ -5,7 +5,11 @@ public class Product {
 	Product(String name,int price){
 		this.name = name;
 		this.price = price;
+		instance_count +=1;
 	}
+	
+	static final String STORE_NAME = "速水PC販売店";
+	static int instance_count = 0;
 	
 	String name;
 	int price;
@@ -20,5 +24,6 @@ public class Product {
 	
 	void display() {
 		System.out.println(name + ":" + price + "円");
+		System.out.println(STORE_NAME);
 	}
 }
