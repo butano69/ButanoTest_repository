@@ -2,9 +2,21 @@ package example;
 
 public class Salse_Empoyee {
 	
+	Salse_Empoyee(){
+		instance_count += 1;
+	}
+	
+	static final String COMPANY_NAME = "〇〇商事";
+	
+	static int instance_count = 0;
+	
 	String name;
 	
 	int salesAmt;
+	
+	static void displayCompany() {
+		System.out.println(COMPANY_NAME);
+	}
 	
 	//売り上げるメソッド
 	int sell(int amt) {
