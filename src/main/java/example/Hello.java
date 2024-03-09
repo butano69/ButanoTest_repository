@@ -34,6 +34,9 @@ public class Hello {
 		apple.down(1000);
 		apple.display();
 		
+		int a;
+		
+		
 		
 	}
 
